@@ -14,11 +14,12 @@ nav {
   margin: auto;
 }
 
-nav > ul {
+nav > ul li{
+  text-decoration: none;
   position: absolute; 
   top: 50%;
-  height: 70px;
-  margin-top: -35;
+
+  display: inline;
 }
 
 nav a {
